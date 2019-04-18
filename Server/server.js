@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 var { ObjectID } = require("mongodb");
 
 // Local requires
-const TodoModel = require("./Models/TodoModel");
+const TodoModel = require("../Models/TodoModel");
 
 //comment
 
