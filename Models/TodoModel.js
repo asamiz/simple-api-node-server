@@ -8,6 +8,7 @@ mongoose.connect(
   }
 );
 
+//coment
 const todoSchema = mongoose.Schema({
   task: { type: String, required: true },
   completed: { type: Boolean, required: true }
